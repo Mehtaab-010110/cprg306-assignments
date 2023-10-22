@@ -1,4 +1,4 @@
-
+import React from 'react';
 import NewItem from './new-item';
 
 const Week4Page = () => {
