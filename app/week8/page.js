@@ -4,7 +4,7 @@
 
 import React from 'react';
 import { useUserAuth } from "./_utils/auth-context";
-import { Link } from 'react-router-dom'; // Assuming you're using react-router for navigation
+import Link from 'next/link';
 
 const Page = () => {
   const { user, gitHubSignIn, firebaseSignOut } = useUserAuth();
